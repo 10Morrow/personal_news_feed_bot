@@ -4,7 +4,7 @@ from config import TELEGRAM_API_HASH
 
 
 def get_last_post(channel_username: str) -> None:
-    with TelegramClient('session_1', TELEGRAM_API_ID, TELEGRAM_API_HASH,
+    with TelegramClient('session', TELEGRAM_API_ID, TELEGRAM_API_HASH,
                         system_version="4.16.30-vxCUSTOM",
                         device_model="ubuntu-server",
                         app_version="5.15.9") as client:
